@@ -1,5 +1,5 @@
 {
-  "name": "30.10.2024",
+  "name": "30-10-24",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -12,7 +12,8 @@
   "description": "",
   "dependencies": {
     "boxen": "^8.0.1",
-    "cat-facts": "^1.0.2",
-    "inquirer": "^12.0.1"
+    "chalk": "^5.3.0",
+    "inquirer": "^12.0.1",
+    "inspirational-quotes": "^2.0.1"
   }
 }
