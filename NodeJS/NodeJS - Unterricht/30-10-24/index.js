@@ -7,6 +7,7 @@ import chalk from 'chalk';
 // Funktion zur Anzeige eines inspirierenden Zitats
 function showInspirationalQuote() {
     const quote = inspirationalQuotes.getQuote(); // Fülle dies aus!
+    console.log("Debug: Quote fetched - ", quote); // Debugging-Statement
     const quoteBox = boxen(chalk.green(quote.text), {
         padding: 1,
         margin: 1,
@@ -14,7 +15,6 @@ function showInspirationalQuote() {
     });
     console.log(quoteBox); // Zitat in einer Box anzeigen
 }
-
 // Funktion für die Benutzerinteraktion
 async function askForNewQuote() {
     const answers = await inquirer.prompt([
@@ -28,7 +28,7 @@ async function askForNewQuote() {
 
     if (answers.getQuote) {
         showInspirationalQuote();
-        askForNewQuote(); // Fragt erneut, ob ein weiteres Zitat angezeigt werden soll
+        console.log(chalk.yellow('Danke, dass du das Programm genutzt hast!'));
     } else {
         console.log(chalk.yellow('Danke, dass du das Programm genutzt hast!'));
         process.exit(0); // Programm beenden
