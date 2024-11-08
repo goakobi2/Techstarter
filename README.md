@@ -1,2 +1,0 @@
-kuzikuz
-kk
