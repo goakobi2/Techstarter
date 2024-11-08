@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory of DMX</title>
+    <link rel="stylesheet" href="enter_styles.css">
+    <meta name="description" content="Offizielle Gedenkseite für DMX, den legendären Rapper und Schauspieler. Entdecken Sie seine Musik, sein Leben und sein Vermächtnis.">
+    <meta name="keywords" content="Memory of DMX, Earl Simmons, Rapper, Hip-Hop, Musik, Biografie, Alben, Ruff Ryders">
+    <meta name="author" content="Dein Name">
+</head>
+
+<div class="header-spacer"></div>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="main/pictures/font/MoDMX.png" alt="Memory of DMX" style="max-width: 100%; height: auto;">
+        </div>
+    </header>
+<p><br></p>
+<p><br></p>
+    <main>
+        <section id="diskografie" class="container">
+            <img src="main/pictures/font/enter.png" alt="Enter" style="max-width: 100%; height: auto;">
+        </section>
+
+        <section class="flags-section">
+            <div class="flag">
+                <a href="main/de_home.html">
+                    <img src="main/pictures/flag/de.png" alt="German Flag">
+                </a>
+            </div>
+            <div class="flag">
+                <a href="main/usa_home.html">
+                    <img src="main/pictures/flag/usa.png" alt="English Flag">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <div class="spacer"></div>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Memory of DMX</p>
+        </div>
+    </footer>
+    
+        <!-- Cookie-Banner -->
+        <div id="cookie-banner" style="display: none;">
+            <p>Memory of DMX does not collect any cookies! <button id="accept-cookies">OK</button></p>
+        </div>
+       
+        <script>
+            // Cookie-Banner anzeigen
+            document.getElementById('cookie-banner').style.display = 'block';
+    
+            // Deaktiviere die Navigation
+            const navLinks = document.querySelectorAll('#navigation a');
+            navLinks.forEach(link => {
+                link.classList.add('disabled'); // Fügt die Klasse 'disabled' hinzu
+            });
+    
+            // Event-Listener für den Button
+            document.getElementById('accept-cookies').addEventListener('click', function() {
+                document.getElementById('cookie-banner').style.display = 'none';
+                navLinks.forEach(link => {
+                    link.classList.remove('disabled'); // Entfernt die Klasse 'disabled'
+                });
+            });
+        </script>
+    </body>
+    </html>
+</body>
+</html>
