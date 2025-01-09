@@ -1,0 +1,13 @@
+2025-01-08 11:16:41 [info]: Server is running at http://localhost:5000
+2025-01-08 11:16:49 [info]: Request: GET /
+2025-01-08 11:16:49 [info]: Request: GET /favicon.ico
+2025-01-08 11:21:48 [info]: Server is running at http://localhost:5000
+2025-01-08 11:21:57 [info]: Request: GET /
+2025-01-08 11:28:47 [info]: Server is running at http://localhost:5000
+2025-01-08 11:35:57 [info]: Server is running at http://localhost:5000
+2025-01-08 11:36:05 [info]: Request: GET /
+2025-01-08 11:57:25 [info]: Server is running at http://localhost:5000
+2025-01-08 11:57:35 [info]: Request: GET /
+2025-01-08 12:19:12 [info]: Server is running at http://localhost:5000
+2025-01-08 12:24:20 [info]: Request: GET /
+2025-01-08 12:24:21 [info]: Request: GET /favicon.ico
